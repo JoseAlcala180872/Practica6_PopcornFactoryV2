@@ -63,6 +63,16 @@ uncover the mystery, Hiro transforms his friends into a band of high-tech heroes
             android:layout_marginRight="20dp"
             />
     </LinearLayout>
+    <Button
+        android:id="@+id/buyTickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy my ticket!"
+        android:textColor="@color/nigga"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:paddingHorizontal="@dimen/paddingButton"
+        android:layout_marginTop="10dp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -71,6 +81,7 @@ uncover the mystery, Hiro transforms his friends into a band of high-tech heroes
         android:textColor="@color/grey"
         android:textStyle="italic"
         android:textAlignment="center"
-        android:layout_marginTop="7dp"/>
+        android:layout_marginTop="7dp"
+        />
 
 </LinearLayout>
